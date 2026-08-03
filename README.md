@@ -279,3 +279,13 @@ Large raw data files and processed R objects are excluded from the repository vi
 ## Reference
 
 Sade-Feldman M, Yizhak K, Bjorgaard SL, et al. Defining T cell states associated with response to checkpoint immunotherapy in melanoma. *Cell.* 2018;175(4):998–1013.e20.
+
+## Technical notes and future directions
+
+Detailed supplementary notes are available in [`docs/`](docs/):
+
+- [Methodological notes](docs/methodological_notes.md): data type constraints, unit of replication, and validation strategy for the B-cell HLA class II signal.
+- [Spatial/TLS future directions](docs/spatial_tls_future_directions.md): why spatial or histological validation is required before making any tertiary lymphoid structure claim.
+- [Multi-omics tumour-intrinsic future directions](docs/multiomics_tumour_intrinsic_future_directions.md): how the exploratory immune-cell signal could be integrated with tumour-intrinsic features in future matched cohorts.
+
+These documents describe validation strategies and future directions. No analysis beyond the main repository has been performed.
