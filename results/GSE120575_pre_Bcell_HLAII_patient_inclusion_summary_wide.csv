@@ -1,0 +1,3 @@
+response,total_patients,included_patients,excluded_patients,median_b_cells,min_b_cells,max_b_cells
+Non-responder,10,5,5,4.5,0,19
+Responder,9,7,2,25,0,189

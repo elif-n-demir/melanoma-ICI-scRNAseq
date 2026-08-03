@@ -1,0 +1,191 @@
+patient_id,response,cell_type_analysis,n_cells,total_cells,freq
+P1,Responder,B cell,0,229,0
+P1,Responder,Conventional / memory-like CD4 T,48,229,0.2096069868995633
+P1,Responder,Cycling exhausted/tumor-reactive CD8 T,17,229,0.07423580786026202
+P1,Responder,gamma-delta / NK-like cytotoxic T,31,229,0.13537117903930132
+P1,Responder,GZMK+ activated/transitional CD8 T,112,229,0.4890829694323144
+P1,Responder,Myeloid / macrophage,2,229,0.008733624454148471
+P1,Responder,pDC / dendritic-like,3,229,0.013100436681222707
+P1,Responder,Plasma cell,0,229,0
+P1,Responder,TCF7+ memory-like CD8 T,6,229,0.026200873362445413
+P1,Responder,Treg-like CD4 T,10,229,0.043668122270742356
+P12,Non-responder,B cell,3,330,0.00909090909090909
+P12,Non-responder,Conventional / memory-like CD4 T,17,330,0.051515151515151514
+P12,Non-responder,Cycling exhausted/tumor-reactive CD8 T,45,330,0.13636363636363635
+P12,Non-responder,gamma-delta / NK-like cytotoxic T,133,330,0.403030303030303
+P12,Non-responder,GZMK+ activated/transitional CD8 T,20,330,0.06060606060606061
+P12,Non-responder,Myeloid / macrophage,55,330,0.16666666666666666
+P12,Non-responder,pDC / dendritic-like,14,330,0.04242424242424243
+P12,Non-responder,Plasma cell,0,330,0
+P12,Non-responder,TCF7+ memory-like CD8 T,17,330,0.051515151515151514
+P12,Non-responder,Treg-like CD4 T,26,330,0.07878787878787878
+P15,Non-responder,B cell,4,304,0.013157894736842105
+P15,Non-responder,Conventional / memory-like CD4 T,73,304,0.24013157894736842
+P15,Non-responder,Cycling exhausted/tumor-reactive CD8 T,27,304,0.08881578947368421
+P15,Non-responder,gamma-delta / NK-like cytotoxic T,39,304,0.12828947368421054
+P15,Non-responder,GZMK+ activated/transitional CD8 T,73,304,0.24013157894736842
+P15,Non-responder,Myeloid / macrophage,31,304,0.10197368421052631
+P15,Non-responder,pDC / dendritic-like,6,304,0.019736842105263157
+P15,Non-responder,Plasma cell,0,304,0
+P15,Non-responder,TCF7+ memory-like CD8 T,3,304,0.009868421052631578
+P15,Non-responder,Treg-like CD4 T,48,304,0.15789473684210525
+P2,Non-responder,B cell,5,337,0.01483679525222552
+P2,Non-responder,Conventional / memory-like CD4 T,25,337,0.07418397626112759
+P2,Non-responder,Cycling exhausted/tumor-reactive CD8 T,79,337,0.2344213649851632
+P2,Non-responder,gamma-delta / NK-like cytotoxic T,23,337,0.06824925816023739
+P2,Non-responder,GZMK+ activated/transitional CD8 T,141,337,0.41839762611275966
+P2,Non-responder,Myeloid / macrophage,39,337,0.11572700296735905
+P2,Non-responder,pDC / dendritic-like,1,337,0.002967359050445104
+P2,Non-responder,Plasma cell,2,337,0.005934718100890208
+P2,Non-responder,TCF7+ memory-like CD8 T,5,337,0.01483679525222552
+P2,Non-responder,Treg-like CD4 T,17,337,0.050445103857566766
+P20,Non-responder,B cell,5,323,0.015479876160990712
+P20,Non-responder,Conventional / memory-like CD4 T,26,323,0.0804953560371517
+P20,Non-responder,Cycling exhausted/tumor-reactive CD8 T,138,323,0.42724458204334365
+P20,Non-responder,gamma-delta / NK-like cytotoxic T,13,323,0.04024767801857585
+P20,Non-responder,GZMK+ activated/transitional CD8 T,16,323,0.04953560371517028
+P20,Non-responder,Myeloid / macrophage,33,323,0.1021671826625387
+P20,Non-responder,pDC / dendritic-like,5,323,0.015479876160990712
+P20,Non-responder,Plasma cell,10,323,0.030959752321981424
+P20,Non-responder,TCF7+ memory-like CD8 T,51,323,0.15789473684210525
+P20,Non-responder,Treg-like CD4 T,26,323,0.0804953560371517
+P24,Responder,B cell,13,338,0.038461538461538464
+P24,Responder,Conventional / memory-like CD4 T,59,338,0.17455621301775148
+P24,Responder,Cycling exhausted/tumor-reactive CD8 T,21,338,0.0621301775147929
+P24,Responder,gamma-delta / NK-like cytotoxic T,13,338,0.038461538461538464
+P24,Responder,GZMK+ activated/transitional CD8 T,21,338,0.0621301775147929
+P24,Responder,Myeloid / macrophage,3,338,0.008875739644970414
+P24,Responder,pDC / dendritic-like,3,338,0.008875739644970414
+P24,Responder,Plasma cell,0,338,0
+P24,Responder,TCF7+ memory-like CD8 T,193,338,0.5710059171597633
+P24,Responder,Treg-like CD4 T,12,338,0.03550295857988166
+P25,Non-responder,B cell,0,371,0
+P25,Non-responder,Conventional / memory-like CD4 T,35,371,0.09433962264150944
+P25,Non-responder,Cycling exhausted/tumor-reactive CD8 T,9,371,0.02425876010781671
+P25,Non-responder,gamma-delta / NK-like cytotoxic T,83,371,0.22371967654986524
+P25,Non-responder,GZMK+ activated/transitional CD8 T,231,371,0.6226415094339622
+P25,Non-responder,Myeloid / macrophage,0,371,0
+P25,Non-responder,pDC / dendritic-like,0,371,0
+P25,Non-responder,Plasma cell,0,371,0
+P25,Non-responder,TCF7+ memory-like CD8 T,3,371,0.008086253369272238
+P25,Non-responder,Treg-like CD4 T,10,371,0.026954177897574125
+P26,Responder,B cell,189,333,0.5675675675675675
+P26,Responder,Conventional / memory-like CD4 T,85,333,0.2552552552552553
+P26,Responder,Cycling exhausted/tumor-reactive CD8 T,4,333,0.012012012012012012
+P26,Responder,gamma-delta / NK-like cytotoxic T,6,333,0.018018018018018018
+P26,Responder,GZMK+ activated/transitional CD8 T,20,333,0.06006006006006006
+P26,Responder,Myeloid / macrophage,13,333,0.03903903903903904
+P26,Responder,pDC / dendritic-like,2,333,0.006006006006006006
+P26,Responder,Plasma cell,3,333,0.009009009009009009
+P26,Responder,TCF7+ memory-like CD8 T,1,333,0.003003003003003003
+P26,Responder,Treg-like CD4 T,10,333,0.03003003003003003
+P27,Non-responder,B cell,0,343,0
+P27,Non-responder,Conventional / memory-like CD4 T,18,343,0.052478134110787174
+P27,Non-responder,Cycling exhausted/tumor-reactive CD8 T,183,343,0.5335276967930029
+P27,Non-responder,gamma-delta / NK-like cytotoxic T,27,343,0.07871720116618076
+P27,Non-responder,GZMK+ activated/transitional CD8 T,26,343,0.07580174927113703
+P27,Non-responder,Myeloid / macrophage,13,343,0.037900874635568516
+P27,Non-responder,pDC / dendritic-like,8,343,0.023323615160349854
+P27,Non-responder,Plasma cell,0,343,0
+P27,Non-responder,TCF7+ memory-like CD8 T,20,343,0.05830903790087463
+P27,Non-responder,Treg-like CD4 T,48,343,0.13994169096209913
+P28,Responder,B cell,4,337,0.011869436201780416
+P28,Responder,Conventional / memory-like CD4 T,163,337,0.4836795252225519
+P28,Responder,Cycling exhausted/tumor-reactive CD8 T,14,337,0.04154302670623145
+P28,Responder,gamma-delta / NK-like cytotoxic T,37,337,0.10979228486646884
+P28,Responder,GZMK+ activated/transitional CD8 T,68,337,0.20178041543026706
+P28,Responder,Myeloid / macrophage,3,337,0.008902077151335312
+P28,Responder,pDC / dendritic-like,2,337,0.005934718100890208
+P28,Responder,Plasma cell,0,337,0
+P28,Responder,TCF7+ memory-like CD8 T,27,337,0.08011869436201781
+P28,Responder,Treg-like CD4 T,19,337,0.05637982195845697
+P29,Responder,B cell,11,163,0.06748466257668712
+P29,Responder,Conventional / memory-like CD4 T,15,163,0.09202453987730061
+P29,Responder,Cycling exhausted/tumor-reactive CD8 T,47,163,0.2883435582822086
+P29,Responder,gamma-delta / NK-like cytotoxic T,7,163,0.04294478527607362
+P29,Responder,GZMK+ activated/transitional CD8 T,24,163,0.147239263803681
+P29,Responder,Myeloid / macrophage,14,163,0.08588957055214724
+P29,Responder,pDC / dendritic-like,0,163,0
+P29,Responder,Plasma cell,2,163,0.012269938650306749
+P29,Responder,TCF7+ memory-like CD8 T,10,163,0.06134969325153374
+P29,Responder,Treg-like CD4 T,33,163,0.20245398773006135
+P3,Non-responder,B cell,11,245,0.044897959183673466
+P3,Non-responder,Conventional / memory-like CD4 T,30,245,0.12244897959183673
+P3,Non-responder,Cycling exhausted/tumor-reactive CD8 T,6,245,0.024489795918367346
+P3,Non-responder,gamma-delta / NK-like cytotoxic T,61,245,0.24897959183673468
+P3,Non-responder,GZMK+ activated/transitional CD8 T,59,245,0.24081632653061225
+P3,Non-responder,Myeloid / macrophage,20,245,0.08163265306122448
+P3,Non-responder,pDC / dendritic-like,3,245,0.012244897959183673
+P3,Non-responder,Plasma cell,1,245,0.004081632653061225
+P3,Non-responder,TCF7+ memory-like CD8 T,43,245,0.17551020408163265
+P3,Non-responder,Treg-like CD4 T,11,245,0.044897959183673466
+P31,Non-responder,B cell,2,351,0.005698005698005698
+P31,Non-responder,Conventional / memory-like CD4 T,51,351,0.1452991452991453
+P31,Non-responder,Cycling exhausted/tumor-reactive CD8 T,71,351,0.2022792022792023
+P31,Non-responder,gamma-delta / NK-like cytotoxic T,14,351,0.039886039886039885
+P31,Non-responder,GZMK+ activated/transitional CD8 T,183,351,0.5213675213675214
+P31,Non-responder,Myeloid / macrophage,3,351,0.008547008547008548
+P31,Non-responder,pDC / dendritic-like,4,351,0.011396011396011397
+P31,Non-responder,Plasma cell,3,351,0.008547008547008548
+P31,Non-responder,TCF7+ memory-like CD8 T,0,351,0
+P31,Non-responder,Treg-like CD4 T,20,351,0.05698005698005698
+P33,Responder,B cell,60,452,0.13274336283185842
+P33,Responder,Conventional / memory-like CD4 T,2,452,0.004424778761061947
+P33,Responder,Cycling exhausted/tumor-reactive CD8 T,49,452,0.1084070796460177
+P33,Responder,gamma-delta / NK-like cytotoxic T,5,452,0.011061946902654867
+P33,Responder,GZMK+ activated/transitional CD8 T,1,452,0.0022123893805309734
+P33,Responder,Myeloid / macrophage,0,452,0
+P33,Responder,pDC / dendritic-like,0,452,0
+P33,Responder,Plasma cell,5,452,0.011061946902654867
+P33,Responder,TCF7+ memory-like CD8 T,320,452,0.7079646017699115
+P33,Responder,Treg-like CD4 T,10,452,0.022123893805309734
+P35,Responder,B cell,32,238,0.13445378151260504
+P35,Responder,Conventional / memory-like CD4 T,54,238,0.226890756302521
+P35,Responder,Cycling exhausted/tumor-reactive CD8 T,1,238,0.004201680672268907
+P35,Responder,gamma-delta / NK-like cytotoxic T,22,238,0.09243697478991597
+P35,Responder,GZMK+ activated/transitional CD8 T,42,238,0.17647058823529413
+P35,Responder,Myeloid / macrophage,0,238,0
+P35,Responder,pDC / dendritic-like,0,238,0
+P35,Responder,Plasma cell,77,238,0.3235294117647059
+P35,Responder,TCF7+ memory-like CD8 T,7,238,0.029411764705882353
+P35,Responder,Treg-like CD4 T,3,238,0.012605042016806723
+P4,Non-responder,B cell,12,311,0.03858520900321544
+P4,Non-responder,Conventional / memory-like CD4 T,24,311,0.07717041800643087
+P4,Non-responder,Cycling exhausted/tumor-reactive CD8 T,84,311,0.27009646302250806
+P4,Non-responder,gamma-delta / NK-like cytotoxic T,25,311,0.08038585209003216
+P4,Non-responder,GZMK+ activated/transitional CD8 T,20,311,0.06430868167202572
+P4,Non-responder,Myeloid / macrophage,99,311,0.3183279742765273
+P4,Non-responder,pDC / dendritic-like,12,311,0.03858520900321544
+P4,Non-responder,Plasma cell,2,311,0.006430868167202572
+P4,Non-responder,TCF7+ memory-like CD8 T,31,311,0.09967845659163987
+P4,Non-responder,Treg-like CD4 T,2,311,0.006430868167202572
+P6,Non-responder,B cell,19,288,0.06597222222222222
+P6,Non-responder,Conventional / memory-like CD4 T,5,288,0.017361111111111112
+P6,Non-responder,Cycling exhausted/tumor-reactive CD8 T,25,288,0.08680555555555555
+P6,Non-responder,gamma-delta / NK-like cytotoxic T,13,288,0.04513888888888889
+P6,Non-responder,GZMK+ activated/transitional CD8 T,6,288,0.020833333333333332
+P6,Non-responder,Myeloid / macrophage,68,288,0.2361111111111111
+P6,Non-responder,pDC / dendritic-like,17,288,0.059027777777777776
+P6,Non-responder,Plasma cell,90,288,0.3125
+P6,Non-responder,TCF7+ memory-like CD8 T,4,288,0.013888888888888888
+P6,Non-responder,Treg-like CD4 T,41,288,0.1423611111111111
+P7,Responder,B cell,49,368,0.1331521739130435
+P7,Responder,Conventional / memory-like CD4 T,183,368,0.49728260869565216
+P7,Responder,Cycling exhausted/tumor-reactive CD8 T,12,368,0.03260869565217391
+P7,Responder,gamma-delta / NK-like cytotoxic T,5,368,0.01358695652173913
+P7,Responder,GZMK+ activated/transitional CD8 T,103,368,0.2798913043478261
+P7,Responder,Myeloid / macrophage,0,368,0
+P7,Responder,pDC / dendritic-like,0,368,0
+P7,Responder,Plasma cell,0,368,0
+P7,Responder,TCF7+ memory-like CD8 T,13,368,0.035326086956521736
+P7,Responder,Treg-like CD4 T,3,368,0.008152173913043478
+P8,Responder,B cell,25,267,0.09363295880149813
+P8,Responder,Conventional / memory-like CD4 T,2,267,0.00749063670411985
+P8,Responder,Cycling exhausted/tumor-reactive CD8 T,9,267,0.033707865168539325
+P8,Responder,gamma-delta / NK-like cytotoxic T,74,267,0.27715355805243447
+P8,Responder,GZMK+ activated/transitional CD8 T,7,267,0.026217228464419477
+P8,Responder,Myeloid / macrophage,41,267,0.15355805243445692
+P8,Responder,pDC / dendritic-like,3,267,0.011235955056179775
+P8,Responder,Plasma cell,0,267,0
+P8,Responder,TCF7+ memory-like CD8 T,102,267,0.38202247191011235
+P8,Responder,Treg-like CD4 T,4,267,0.0149812734082397

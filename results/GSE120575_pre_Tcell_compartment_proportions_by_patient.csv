@@ -1,0 +1,115 @@
+patient_id,response,cell_type_analysis,n_cells,total_t_cells,freq
+P1,Responder,Conventional / memory-like CD4 T,48,224,0.21428571428571427
+P1,Responder,Cycling exhausted/tumor-reactive CD8 T,17,224,0.07589285714285714
+P1,Responder,gamma-delta / NK-like cytotoxic T,31,224,0.13839285714285715
+P1,Responder,GZMK+ activated/transitional CD8 T,112,224,0.5
+P1,Responder,TCF7+ memory-like CD8 T,6,224,0.026785714285714284
+P1,Responder,Treg-like CD4 T,10,224,0.044642857142857144
+P12,Non-responder,Conventional / memory-like CD4 T,17,258,0.06589147286821706
+P12,Non-responder,Cycling exhausted/tumor-reactive CD8 T,45,258,0.1744186046511628
+P12,Non-responder,gamma-delta / NK-like cytotoxic T,133,258,0.5155038759689923
+P12,Non-responder,GZMK+ activated/transitional CD8 T,20,258,0.07751937984496124
+P12,Non-responder,TCF7+ memory-like CD8 T,17,258,0.06589147286821706
+P12,Non-responder,Treg-like CD4 T,26,258,0.10077519379844961
+P15,Non-responder,Conventional / memory-like CD4 T,73,263,0.27756653992395436
+P15,Non-responder,Cycling exhausted/tumor-reactive CD8 T,27,263,0.10266159695817491
+P15,Non-responder,gamma-delta / NK-like cytotoxic T,39,263,0.1482889733840304
+P15,Non-responder,GZMK+ activated/transitional CD8 T,73,263,0.27756653992395436
+P15,Non-responder,TCF7+ memory-like CD8 T,3,263,0.011406844106463879
+P15,Non-responder,Treg-like CD4 T,48,263,0.18250950570342206
+P2,Non-responder,Conventional / memory-like CD4 T,25,290,0.08620689655172414
+P2,Non-responder,Cycling exhausted/tumor-reactive CD8 T,79,290,0.27241379310344827
+P2,Non-responder,gamma-delta / NK-like cytotoxic T,23,290,0.07931034482758621
+P2,Non-responder,GZMK+ activated/transitional CD8 T,141,290,0.4862068965517241
+P2,Non-responder,TCF7+ memory-like CD8 T,5,290,0.017241379310344827
+P2,Non-responder,Treg-like CD4 T,17,290,0.05862068965517241
+P20,Non-responder,Conventional / memory-like CD4 T,26,270,0.0962962962962963
+P20,Non-responder,Cycling exhausted/tumor-reactive CD8 T,138,270,0.5111111111111111
+P20,Non-responder,gamma-delta / NK-like cytotoxic T,13,270,0.04814814814814815
+P20,Non-responder,GZMK+ activated/transitional CD8 T,16,270,0.05925925925925926
+P20,Non-responder,TCF7+ memory-like CD8 T,51,270,0.18888888888888888
+P20,Non-responder,Treg-like CD4 T,26,270,0.0962962962962963
+P24,Responder,Conventional / memory-like CD4 T,59,319,0.18495297805642633
+P24,Responder,Cycling exhausted/tumor-reactive CD8 T,21,319,0.06583072100313479
+P24,Responder,gamma-delta / NK-like cytotoxic T,13,319,0.04075235109717868
+P24,Responder,GZMK+ activated/transitional CD8 T,21,319,0.06583072100313479
+P24,Responder,TCF7+ memory-like CD8 T,193,319,0.6050156739811913
+P24,Responder,Treg-like CD4 T,12,319,0.03761755485893417
+P25,Non-responder,Conventional / memory-like CD4 T,35,371,0.09433962264150944
+P25,Non-responder,Cycling exhausted/tumor-reactive CD8 T,9,371,0.02425876010781671
+P25,Non-responder,gamma-delta / NK-like cytotoxic T,83,371,0.22371967654986524
+P25,Non-responder,GZMK+ activated/transitional CD8 T,231,371,0.6226415094339622
+P25,Non-responder,TCF7+ memory-like CD8 T,3,371,0.008086253369272238
+P25,Non-responder,Treg-like CD4 T,10,371,0.026954177897574125
+P26,Responder,Conventional / memory-like CD4 T,85,126,0.6746031746031746
+P26,Responder,Cycling exhausted/tumor-reactive CD8 T,4,126,0.031746031746031744
+P26,Responder,gamma-delta / NK-like cytotoxic T,6,126,0.047619047619047616
+P26,Responder,GZMK+ activated/transitional CD8 T,20,126,0.15873015873015872
+P26,Responder,TCF7+ memory-like CD8 T,1,126,0.007936507936507936
+P26,Responder,Treg-like CD4 T,10,126,0.07936507936507936
+P27,Non-responder,Conventional / memory-like CD4 T,18,322,0.055900621118012424
+P27,Non-responder,Cycling exhausted/tumor-reactive CD8 T,183,322,0.5683229813664596
+P27,Non-responder,gamma-delta / NK-like cytotoxic T,27,322,0.08385093167701864
+P27,Non-responder,GZMK+ activated/transitional CD8 T,26,322,0.08074534161490683
+P27,Non-responder,TCF7+ memory-like CD8 T,20,322,0.062111801242236024
+P27,Non-responder,Treg-like CD4 T,48,322,0.14906832298136646
+P28,Responder,Conventional / memory-like CD4 T,163,328,0.4969512195121951
+P28,Responder,Cycling exhausted/tumor-reactive CD8 T,14,328,0.042682926829268296
+P28,Responder,gamma-delta / NK-like cytotoxic T,37,328,0.11280487804878049
+P28,Responder,GZMK+ activated/transitional CD8 T,68,328,0.2073170731707317
+P28,Responder,TCF7+ memory-like CD8 T,27,328,0.08231707317073171
+P28,Responder,Treg-like CD4 T,19,328,0.057926829268292686
+P29,Responder,Conventional / memory-like CD4 T,15,136,0.11029411764705882
+P29,Responder,Cycling exhausted/tumor-reactive CD8 T,47,136,0.34558823529411764
+P29,Responder,gamma-delta / NK-like cytotoxic T,7,136,0.051470588235294115
+P29,Responder,GZMK+ activated/transitional CD8 T,24,136,0.17647058823529413
+P29,Responder,TCF7+ memory-like CD8 T,10,136,0.07352941176470588
+P29,Responder,Treg-like CD4 T,33,136,0.2426470588235294
+P3,Non-responder,Conventional / memory-like CD4 T,30,210,0.14285714285714285
+P3,Non-responder,Cycling exhausted/tumor-reactive CD8 T,6,210,0.02857142857142857
+P3,Non-responder,gamma-delta / NK-like cytotoxic T,61,210,0.2904761904761905
+P3,Non-responder,GZMK+ activated/transitional CD8 T,59,210,0.28095238095238095
+P3,Non-responder,TCF7+ memory-like CD8 T,43,210,0.20476190476190476
+P3,Non-responder,Treg-like CD4 T,11,210,0.05238095238095238
+P31,Non-responder,Conventional / memory-like CD4 T,51,339,0.1504424778761062
+P31,Non-responder,Cycling exhausted/tumor-reactive CD8 T,71,339,0.20943952802359883
+P31,Non-responder,gamma-delta / NK-like cytotoxic T,14,339,0.04129793510324484
+P31,Non-responder,GZMK+ activated/transitional CD8 T,183,339,0.5398230088495575
+P31,Non-responder,TCF7+ memory-like CD8 T,0,339,0
+P31,Non-responder,Treg-like CD4 T,20,339,0.058997050147492625
+P33,Responder,Conventional / memory-like CD4 T,2,387,0.00516795865633075
+P33,Responder,Cycling exhausted/tumor-reactive CD8 T,49,387,0.12661498708010335
+P33,Responder,gamma-delta / NK-like cytotoxic T,5,387,0.012919896640826873
+P33,Responder,GZMK+ activated/transitional CD8 T,1,387,0.002583979328165375
+P33,Responder,TCF7+ memory-like CD8 T,320,387,0.8268733850129198
+P33,Responder,Treg-like CD4 T,10,387,0.025839793281653745
+P35,Responder,Conventional / memory-like CD4 T,54,129,0.4186046511627907
+P35,Responder,Cycling exhausted/tumor-reactive CD8 T,1,129,0.007751937984496124
+P35,Responder,gamma-delta / NK-like cytotoxic T,22,129,0.17054263565891473
+P35,Responder,GZMK+ activated/transitional CD8 T,42,129,0.32558139534883723
+P35,Responder,TCF7+ memory-like CD8 T,7,129,0.05426356589147287
+P35,Responder,Treg-like CD4 T,3,129,0.023255813953488372
+P4,Non-responder,Conventional / memory-like CD4 T,24,186,0.12903225806451613
+P4,Non-responder,Cycling exhausted/tumor-reactive CD8 T,84,186,0.45161290322580644
+P4,Non-responder,gamma-delta / NK-like cytotoxic T,25,186,0.13440860215053763
+P4,Non-responder,GZMK+ activated/transitional CD8 T,20,186,0.10752688172043011
+P4,Non-responder,TCF7+ memory-like CD8 T,31,186,0.16666666666666666
+P4,Non-responder,Treg-like CD4 T,2,186,0.010752688172043012
+P6,Non-responder,Conventional / memory-like CD4 T,5,94,0.05319148936170213
+P6,Non-responder,Cycling exhausted/tumor-reactive CD8 T,25,94,0.26595744680851063
+P6,Non-responder,gamma-delta / NK-like cytotoxic T,13,94,0.13829787234042554
+P6,Non-responder,GZMK+ activated/transitional CD8 T,6,94,0.06382978723404255
+P6,Non-responder,TCF7+ memory-like CD8 T,4,94,0.0425531914893617
+P6,Non-responder,Treg-like CD4 T,41,94,0.43617021276595747
+P7,Responder,Conventional / memory-like CD4 T,183,319,0.5736677115987461
+P7,Responder,Cycling exhausted/tumor-reactive CD8 T,12,319,0.03761755485893417
+P7,Responder,gamma-delta / NK-like cytotoxic T,5,319,0.01567398119122257
+P7,Responder,GZMK+ activated/transitional CD8 T,103,319,0.322884012539185
+P7,Responder,TCF7+ memory-like CD8 T,13,319,0.04075235109717868
+P7,Responder,Treg-like CD4 T,3,319,0.009404388714733543
+P8,Responder,Conventional / memory-like CD4 T,2,198,0.010101010101010102
+P8,Responder,Cycling exhausted/tumor-reactive CD8 T,9,198,0.045454545454545456
+P8,Responder,gamma-delta / NK-like cytotoxic T,74,198,0.37373737373737376
+P8,Responder,GZMK+ activated/transitional CD8 T,7,198,0.03535353535353535
+P8,Responder,TCF7+ memory-like CD8 T,102,198,0.5151515151515151
+P8,Responder,Treg-like CD4 T,4,198,0.020202020202020204

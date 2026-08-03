@@ -1,0 +1,30 @@
+patient_id,response,cell_type_analysis,n_cells,mean_hla2
+P12,Non-responder,Myeloid / macrophage,55,0.8068020023689713
+P12,Non-responder,pDC / dendritic-like,14,0.866724606924816
+P15,Non-responder,Myeloid / macrophage,31,0.9472878268008403
+P15,Non-responder,pDC / dendritic-like,6,1.0158957131993052
+P2,Non-responder,B cell,5,0.6463412406168481
+P2,Non-responder,Myeloid / macrophage,39,0.9050720262438064
+P20,Non-responder,B cell,5,1.2274869775430122
+P20,Non-responder,Myeloid / macrophage,33,0.9253812686869923
+P20,Non-responder,pDC / dendritic-like,5,0.8089510875226464
+P24,Responder,B cell,13,1.3527120739499336
+P26,Responder,B cell,189,1.3503431001642279
+P26,Responder,Myeloid / macrophage,13,0.953082222592776
+P27,Non-responder,Myeloid / macrophage,13,0.8488194315552581
+P27,Non-responder,pDC / dendritic-like,8,0.7608514372952169
+P29,Responder,B cell,11,1.3236148155750513
+P29,Responder,Myeloid / macrophage,14,1.0028189424868141
+P3,Non-responder,B cell,11,1.198859677464586
+P3,Non-responder,Myeloid / macrophage,20,0.8920064129361222
+P33,Responder,B cell,60,1.508950886414866
+P35,Responder,B cell,32,1.337607413007368
+P4,Non-responder,B cell,12,1.2654795229402713
+P4,Non-responder,Myeloid / macrophage,99,0.8290055804807098
+P4,Non-responder,pDC / dendritic-like,12,0.8252481669172097
+P6,Non-responder,B cell,19,0.7061874305921879
+P6,Non-responder,Myeloid / macrophage,68,0.9527025328755896
+P6,Non-responder,pDC / dendritic-like,17,0.9390440293733755
+P7,Responder,B cell,49,1.3772745491082385
+P8,Responder,B cell,25,1.4800958536963527
+P8,Responder,Myeloid / macrophage,41,0.7977824870554263

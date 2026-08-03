@@ -1,0 +1,5 @@
+response,included_Bcell_HLAII,n_patients
+Non-responder,FALSE,5
+Non-responder,TRUE,5
+Responder,FALSE,2
+Responder,TRUE,7

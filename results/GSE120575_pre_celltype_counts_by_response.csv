@@ -1,0 +1,21 @@
+cell_type,response,n_cells
+Activated cytotoxic CD8 T,Non-responder,775
+Activated cytotoxic CD8 T,Responder,398
+B cell,Non-responder,61
+B cell,Responder,383
+Cycling activated T,Non-responder,667
+Cycling activated T,Responder,174
+Ig-high B / plasma-like,Non-responder,6
+Ig-high B / plasma-like,Responder,79
+Myeloid / macrophage,Non-responder,361
+Myeloid / macrophage,Responder,76
+NK / cytotoxic T,Non-responder,431
+NK / cytotoxic T,Responder,200
+Naive-memory T,Non-responder,177
+Naive-memory T,Responder,679
+Plasma cell,Non-responder,102
+Plasma cell,Responder,8
+Treg / activated CD4 T,Non-responder,553
+Treg / activated CD4 T,Responder,715
+pDC / dendritic-like,Non-responder,70
+pDC / dendritic-like,Responder,13
