@@ -290,3 +290,6 @@ Detailed supplementary notes are available in [`docs/`](docs/):
 - [Tumour–immune validation framework](docs/tumour_immune_validation_framework.md): conceptual experimental and spatial follow-up strategies for the exploratory melanoma immune-cell findings.
 
 These documents describe validation strategies and future directions. No analysis beyond the main repository has been performed.
+## Additional workflow demonstrations
+
+- [Melanoma spatial transcriptomics demo](extensions/melanoma_spatial_transcriptomics_demo/): an introductory Seurat workflow using an independent public human melanoma spatial transcriptomics dataset. This is a technical workflow demonstration and not a spatial validation of the GSE120575 responder/non-responder analysis.
