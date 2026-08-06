@@ -4,7 +4,7 @@
 >
 > > **Main result:** When cell-type proportions were calculated relative to all immune cells, no difference remained significant after correction for multiple comparisons. Within the antigen-presenting-cell compartment, however, responders were B-cell-enriched, whereas non-responders were myeloid/macrophage-enriched.
 >
-> To address this compositional difference, HLA class II module scores were tested within individual APC subtypes. B-cell HLA class II expression was higher in responders (BH-adjusted p = 0.0115; 12/19 patients evaluable), supported at the individual-gene level by HLA-DRA and CD74.
+> To address this compositional difference, HLA class II module scores were tested within individual APC subtypes. B-cell HLA class II expression was higher in responders (BH-adjusted p = 0.0115; 12/19 patients evaluable), supported at the individual-gene level by HLA-DRA, CD74, and HLA-DPA1.
 >
 > This was a biologically motivated, exploratory patient-level follow-up analysis. The small and unevenly represented B-cell subset means that composition and expression cannot be fully separated, and the result should not be interpreted as a validated biomarker.
 ---
@@ -206,12 +206,13 @@ The B-cell HLA-II module score is a derived metric, so individual HLA class II g
 
 | Gene | Median responder | Median non-responder | BH-adjusted p |
 |---|---:|---:|---:|
-| HLA-DRA | 2.40 | 2.08 | 0.0115 |
-| CD74 | 2.54 | 2.39 | 0.0115 |
-| HLA-DPB1 | 2.11 | 1.73 | 0.139 |
+| HLA-DRA | 2.40 | 2.08 | 0.0144 |
+| CD74 | 2.54 | 2.39 | 0.0144 |
+| HLA-DPA1 | 2.25 | 1.84 | 0.0383 |
+| HLA-DPB1 | 2.11 | 1.73 | 0.130 |
 | HLA-DRB1 | 2.07 | 1.84 | 0.516 |
 
-HLA-DRA and CD74 were individually higher in responders after BH correction. HLA-DPB1 and HLA-DRB1 were not significant but showed the same direction.
+HLA-DRA, CD74, and HLA-DPA1 were individually higher in responders after BH correction across the five tested genes. HLA-DPB1 and HLA-DRB1 were not statistically significant but showed the same directional trend.
 
 B-cell HLA-II score correlated with B-cell count across all evaluable patients (Spearman rho = 0.73, p = 0.007). Within-group correlations were weaker (rho = 0.15 in non-responders and rho = 0.39 in responders), which is consistent with a substantial between-group component. However, the small within-group sample sizes and uneven B-cell availability mean that abundance-related confounding cannot be excluded.
 
