@@ -2,8 +2,11 @@
 
 > Reanalysis of pre-treatment single-cell RNA-seq from 19 melanoma patients (GSE120575) asking whether tumour-infiltrating immune cell composition and HLA class II expression differ between responders and non-responders to immune checkpoint blockade.
 >
-> **Main result:** No cell-type proportion differed significantly after correction for multiple comparisons. HLA class II expression in B cells was higher in responders (BH-adjusted p = 0.012; 12/19 patients evaluable), supported by individual HLA class II genes including HLA-DRA and CD74.
-
+> > **Main result:** When cell-type proportions were calculated relative to all immune cells, no difference remained significant after correction for multiple comparisons. Within the antigen-presenting-cell compartment, however, responders were B-cell-enriched, whereas non-responders were myeloid/macrophage-enriched.
+>
+> To address this compositional difference, HLA class II module scores were tested within individual APC subtypes. B-cell HLA class II expression was higher in responders (BH-adjusted p = 0.0115; 12/19 patients evaluable), supported at the individual-gene level by HLA-DRA and CD74.
+>
+> This was a biologically motivated, exploratory patient-level follow-up analysis. The small and unevenly represented B-cell subset means that composition and expression cannot be fully separated, and the result should not be interpreted as a validated biomarker.
 ---
 
 ## Background
@@ -111,9 +114,9 @@ Annotation was marker-based. Each cluster was checked against expected marker pa
 
 Cell type proportions were computed per patient and compared between responders and non-responders using Wilcoxon rank-sum tests with Benjamini-Hochberg correction.
 
-Because proportions are compositional, the analysis was performed at two levels: across all immune cells and within the T-cell compartment.
+Because proportions are compositional, the primary analysis was performed at two levels: across all immune cells and within the T-cell compartment.
 
-No cell type proportion differed significantly after BH correction.
+When cell-type proportions were calculated relative to all immune cells, no difference remained significant after BH correction. A separate follow-up analysis of composition within the antigen-presenting-cell compartment is reported below; it uses a different denominator and represents a separate family of comparisons.
 
 ![T cell compartment proportions](figures/03_tcell_proportions.png)
 
@@ -137,9 +140,9 @@ These trends were consistent with the original study directionally, but they wer
 
 ### 2. APC composition
 
-Because HLA class II expression is mainly relevant in antigen-presenting cells, APC composition was examined separately.
+Because the dataset contained CD45-positive immune cells and HLA class II is classically associated with professional antigen-presenting cells, APC composition was examined separately. This APC-focused analysis was a biologically motivated follow-up rather than a pre-specified primary analysis and should therefore be interpreted as hypothesis-generating.
 
-APCs included B cell, Myeloid / macrophage, and pDC / dendritic-like.
+APCs included B cell, Myeloid/macrophage, and pDC / dendritic-like.
 
 ![APC composition](figures/04_apc_composition.png)
 
@@ -171,13 +174,13 @@ Because APC composition differed between groups, the analysis was repeated withi
 | Myeloid / macrophage | 3 | 8 | 0.953 | 0.899 | 0.475 |
 | pDC / dendritic-like | 0 | 6 | NA | 0.846 | not testable |
 
-The difference persisted within B cells. No difference was observed within myeloid/macrophage cells. pDC/dendritic-like cells could not be tested because responder-side data were insufficient.
+The difference persisted within B cells. No evidence of a difference was detected within myeloid/macrophage cells (3 responders and 8 non-responders evaluable; BH-adjusted p = 0.475). Because the responder subgroup was small, this comparison was underpowered and should not be interpreted as evidence that no myeloid difference exists. pDC/dendritic-like cells could not be tested because responder-side data were insufficient.
 
 ---
 
 ### 4. B-cell HLA class II signal
 
-The B-cell-specific HLA-II module score was higher in responders (BH-adjusted p = 0.012).
+Within B cells, the HLA-II module score was higher in responders (BH-adjusted p = 0.0115).
 
 ![B cell HLA-II patient-level values](figures/06_bcell_hla2_patient_level.png)
 
@@ -210,9 +213,9 @@ The B-cell HLA-II module score is a derived metric, so individual HLA class II g
 
 HLA-DRA and CD74 were individually higher in responders after BH correction. HLA-DPB1 and HLA-DRB1 were not significant but showed the same direction.
 
-B-cell HLA-II score correlated with B-cell count across all evaluable patients (Spearman rho = 0.73, p = 0.007). However, within-group correlations were weaker (rho = 0.15 in non-responders and rho = 0.39 in responders), suggesting that the overall correlation largely reflected between-group differences in B-cell abundance rather than a simple technical artefact.
+B-cell HLA-II score correlated with B-cell count across all evaluable patients (Spearman rho = 0.73, p = 0.007). Within-group correlations were weaker (rho = 0.15 in non-responders and rho = 0.39 in responders), which is consistent with a substantial between-group component. However, the small within-group sample sizes and uneven B-cell availability mean that abundance-related confounding cannot be excluded.
 
-Together, these checks support the B-cell HLA-II result, but it should still be interpreted as a strong exploratory patient-level signal.
+Restricting the analysis to B cells and testing individual genes increased the specificity of the observation, but did not completely separate expression from composition. Together, these checks support the B-cell HLA-II result as an exploratory patient-level signal rather than a validated biomarker.
 
 ---
 
@@ -220,7 +223,7 @@ Together, these checks support the B-cell HLA-II result, but it should still be 
 
 Sade-Feldman et al. reported that the balance between TCF7+ memory-like and dysfunctional/exhausted CD8 T cells distinguished responders from non-responders.
 
-In this reanalysis, the same directional trend was observed: responders had higher median TCF7+ memory-like CD8 T proportions, while non-responders had higher median cycling exhausted/tumour-reactive CD8 T proportions. However, these differences did not remain significant after BH correction at patient level.
+In this reanalysis, the same directional trend was observed: responders had higher median TCF7+ memory-like CD8 T proportions, while non-responders had higher median cycling exhausted/tumour-reactive CD8 T proportions. However, these differences did not remain significant after BH correction at the patient level.
 
 The strongest corrected signal in this reanalysis emerged instead in the B-cell/APC compartment.
 
@@ -229,19 +232,22 @@ The strongest corrected signal in this reanalysis emerged instead in the B-cell/
 ## Limitations
 
 - The analysis included 19 patients, which limits statistical power.
-- The B-cell-specific HLA-II analysis included only 12 of 19 patients.
-- Non-responders were disproportionately excluded from the B-cell-restricted analysis because of low B-cell numbers.
+- The HLA-II analysis within B cells included only 12 of 19 patients.
+- Non-responders were disproportionately excluded from the analysis within B cells because of low B-cell numbers.
 - Cell type proportions are compositional; formal compositional analysis was not performed in this first phase.
 - Data were supplied as TPM rather than raw counts, limiting count-based differential expression approaches.
 - CD45+ sorting means malignant cells were not represented, so tumour-intrinsic HLA class II expression could not be assessed.
 - Annotation was marker-based rather than reference-mapped.
-- Differential expression was not performed; the primary analysis is compositional and conducted at patient level.
+- Differential expression was not performed; the primary analysis is compositional and conducted at the patient level.
+- The APC-focused analysis and the follow-up analysis within B cells were biologically motivated rather than pre-specified confirmatory tests.
+- The myeloid/macrophage subtype comparison included only three evaluable responders and was therefore underpowered.
 
 ---
 
 ## Next steps
 
-- Pseudobulk differential expression within B cells to identify which antigen presentation genes drive the observed patient-level signal.
+- If raw count data can be obtained, perform patient-level pseudobulk differential expression within B cells to identify which antigen-presentation genes contribute to the observed signal.
+- With the existing TPM matrix, perform sensitivity analyses using alternative patient-level summaries and B-cell inclusion thresholds, without applying count-based differential-expression models.
 - Validation in an independent melanoma single-cell cohort, ideally including malignant cells to assess tumour-intrinsic HLA class II expression.
 - Formal compositional analysis, such as centred log-ratio transformation, rather than raw proportions.
 - Reference-based annotation to reduce dependence on manual marker interpretation.
