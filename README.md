@@ -294,7 +294,6 @@ Detailed supplementary notes are available in [`docs/`](docs/):
 - [Methodological notes](docs/methodological_notes.md): data type constraints, unit of replication, and validation strategy for the B-cell HLA class II signal.
 - [Spatial/TLS future directions](docs/spatial_tls_future_directions.md): why spatial or histological validation is required before making any tertiary lymphoid structure claim.
 - [Multi-omics tumour-intrinsic future directions](docs/multiomics_tumour_intrinsic_future_directions.md): how the exploratory immune-cell signal could be integrated with tumour-intrinsic features in future matched cohorts.
-- [Tumour–immune validation framework](docs/tumour_immune_validation_framework.md): conceptual experimental and spatial follow-up strategies for the exploratory melanoma immune-cell findings.
 
 These documents describe validation strategies and future directions. No analysis beyond the main repository has been performed.
 ## Additional workflow demonstrations
