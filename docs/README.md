@@ -13,4 +13,3 @@ These notes define the methodological boundaries of the project and outline real
 ## Boundary
 
 The main repository contains the completed single-cell transcriptomic reanalysis. The documents in this folder describe limitations, validation strategies, and future research directions. No additional analysis beyond the main repository has been performed.
-- [Tumour–immune validation framework](tumour_immune_validation_framework.md): a literature-guided framework connecting exploratory patient-level single-cell observations with potential co-culture, molecular, soluble-factor, immunophenotyping and spatial follow-up strategies.
